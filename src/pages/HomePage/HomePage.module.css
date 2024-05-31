@@ -1,0 +1,16 @@
+.helloContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  inset: 0;
+}
+
+.hello {
+  border-radius: 40px;
+  border: 1px solid lightcoral;
+
+  padding: 20px 40px;
+}
