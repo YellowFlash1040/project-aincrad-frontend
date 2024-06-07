@@ -1,19 +1,4 @@
-.helloContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  position: fixed;
-  inset: 0;
-}
-
-.hello {
-  border-radius: 40px;
-  border: 1px solid lightcoral;
-
-  padding: 20px 40px;
-}
+/*Games schedule section*/
 
 .gamesScheduleSection {
   padding: 32px 0 20px 0;
@@ -26,4 +11,26 @@
 .gamesScheduleSectionTitle {
   margin-bottom: 24px;
   margin-left: 5px;
+}
+
+/*Top new releases section*/
+
+.topNewReleasesSection {
+  padding: 20px 0;
+}
+
+.topNewReleasesSectionContainer {
+  padding: 0 165px;
+}
+
+.topNewReleasesSectionTitle {
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+/*Panel header - Title + View more button*/
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }

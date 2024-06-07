@@ -7,3 +7,5 @@ export { default as SearchBar } from './SearchBar/SearchBar';
 export { default as UserPanel } from './UserPanel/UserPanel';
 export { default as GamesSchedule } from './GamesSchedule/GamesSchedule';
 export { default as Logo } from './Logo/Logo';
+export { default as TopNewReleases } from './TopNewReleases/TopNewReleases';
+export { default as ViewMoreButton } from './ViewMoreButton/ViewMoreButton';

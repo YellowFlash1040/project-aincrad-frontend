@@ -1,0 +1,15 @@
+.topNewReleasesList {
+  display: flex;
+  column-gap: 24px;
+}
+
+.topNewReleaseCard {
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-color: var(--main-color);
+
+  & > img {
+    object-fit: cover;
+  }
+}
