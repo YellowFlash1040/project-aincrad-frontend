@@ -1,0 +1,35 @@
+.queryField {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.21;
+
+  color: var(--text-color);
+}
+
+.queryFieldWrapper {
+  position: relative;
+}
+
+.queryField {
+  background-color: var(--second-color);
+
+  border: none;
+  border-radius: 15px;
+
+  padding: 13px 17px 13px 47px;
+
+  width: 225px;
+
+  &::placeholder {
+    color: var(--text-color);
+    font-weight: 500;
+  }
+}
+
+.lensIcon {
+  position: absolute;
+  top: 50%;
+  left: 17px;
+
+  transform: translateY(-50%);
+}

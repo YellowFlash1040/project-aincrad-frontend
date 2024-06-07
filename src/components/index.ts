@@ -1,3 +1,9 @@
 export { default as PageLoader } from './PageLoader/PageLoader';
 export { default as Layout } from './Layout/Layout';
 export { default as PageContainer } from './PageContainer/PageContainer';
+export { default as Header } from './Header/Header';
+export { default as Navigation } from './Navigation/Navigation';
+export { default as SearchBar } from './SearchBar/SearchBar';
+export { default as UserPanel } from './UserPanel/UserPanel';
+export { default as GamesSchedule } from './GamesSchedule/GamesSchedule';
+export { default as Logo } from './Logo/Logo';

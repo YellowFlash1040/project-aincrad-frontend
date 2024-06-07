@@ -1,0 +1,22 @@
+.header {
+  background-color: var(--main-color);
+
+  padding: 23px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  margin-right: 208px;
+}
+
+.logo {
+  margin-right: 243px;
+}
+
+.searchBar {
+  margin-right: 72px;
+}

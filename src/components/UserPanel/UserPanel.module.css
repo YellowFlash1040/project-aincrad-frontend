@@ -1,0 +1,21 @@
+.userAvatarWrapper {
+  border-radius: 50%;
+
+  width: 34px;
+  height: 34px;
+
+  background-color: var(--third-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.languageButton {
+  margin-right: 16px;
+
+  background-color: transparent;
+
+  width: 28px;
+  height: 28px;
+}

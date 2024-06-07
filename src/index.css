@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Inter', sans-serif;
 
   background-color: #f5f6fb;
 }
@@ -62,6 +62,11 @@ main {
 
 :root {
   --transition-options: 250ms ease-in-out;
+
+  --main-color: #d9d9d9;
+  --second-color: #aaaaaa;
+  --third-color: #939393;
+  --text-color: #3e3e3e;
 }
 
 .visually-hidden {

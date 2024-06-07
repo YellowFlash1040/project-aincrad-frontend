@@ -1,0 +1,14 @@
+.gamesList {
+  display: flex;
+  column-gap: 24px;
+}
+
+.gameCard {
+  background-color: var(--main-color);
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  width: 140px;
+  height: 180px;
+}
