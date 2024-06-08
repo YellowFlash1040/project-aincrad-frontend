@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 16px;
+}
+
+.overviewsList {
+  display: flex;
+  column-gap: 16px;
+}
+
+.overviewCard {
+  background-color: var(--main-color);
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  & > img {
+    object-fit: cover;
+  }
+}

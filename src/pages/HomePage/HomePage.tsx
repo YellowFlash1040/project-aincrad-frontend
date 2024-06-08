@@ -2,7 +2,10 @@ import {
   PageContainer,
   GamesSchedule,
   TopNewReleases,
-  ViewMoreButton
+  ViewMoreButton,
+  ThingsOfTheMonth,
+  GameOverviews,
+  TopFreeGames
 } from '../../components';
 
 import s from './HomePage.module.css';
@@ -23,6 +26,25 @@ const HomePage = () => {
             <ViewMoreButton link="/" />
           </div>
           <TopNewReleases />
+        </PageContainer>
+      </section>
+      <section className={s.thingsOfTheMonthSection}>
+        <PageContainer>
+          <h2 className={'visually-hidden'}>Things of the month</h2>
+          <ThingsOfTheMonth />
+        </PageContainer>
+      </section>
+      <section className={s.communitySpecialsSection}>
+        <PageContainer>
+          <h2 className={'visually-hidden'}>Community specials</h2>
+          <ul className={s.communitySpecialsList}>
+            <li>
+              <GameOverviews />
+            </li>
+            <li>
+              <TopFreeGames />
+            </li>
+          </ul>
         </PageContainer>
       </section>
     </>

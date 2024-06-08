@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 16px;
+}
+
+.gamesList {
+  display: flex;
+  column-gap: 16px;
+}
+
+.gameCard {
+  background-color: var(--main-color);
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  & > img {
+    object-fit: cover;
+  }
+}

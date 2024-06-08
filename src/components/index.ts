@@ -9,3 +9,8 @@ export { default as GamesSchedule } from './GamesSchedule/GamesSchedule';
 export { default as Logo } from './Logo/Logo';
 export { default as TopNewReleases } from './TopNewReleases/TopNewReleases';
 export { default as ViewMoreButton } from './ViewMoreButton/ViewMoreButton';
+export { default as ThingOfTheMonth } from './ThingOfTheMonth/ThingOfTheMonth';
+export { default as ThingsOfTheMonth } from './ThingsOfTheMonth/ThingsOfTheMonth';
+export { default as ViewMoreHeader } from './ViewMoreHeader/ViewMoreHeader';
+export { default as GameOverviews } from './GameOverviews/GameOverviews';
+export { default as TopFreeGames } from './TopFreeGames/TopFreeGames';

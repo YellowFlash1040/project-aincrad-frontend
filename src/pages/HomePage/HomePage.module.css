@@ -34,3 +34,20 @@
   justify-content: space-between;
   align-items: start;
 }
+
+/*Things of the month section*/
+
+.thingsOfTheMonthSection {
+  padding: 20px 0;
+}
+
+/*Community specials section (Game overviews and Top free games)*/
+
+.communitySpecialsSection {
+  padding: 20px 0 22px 0;
+}
+
+.communitySpecialsList {
+  display: flex;
+  column-gap: 57px;
+}
