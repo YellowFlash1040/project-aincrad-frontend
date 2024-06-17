@@ -15,7 +15,7 @@ export const upcomingGames = [
     stores: null,
     released: '2024-06-18',
     tba: false,
-    background_image: null,
+    background_image: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co6lz1.jpg',
     rating: 0,
     rating_top: 0,
     ratings: [],
@@ -544,7 +544,7 @@ export const upcomingGames = [
     stores: null,
     released: '2024-06-28',
     tba: false,
-    background_image: null,
+    background_image: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co5o1o.jpg',
     rating: 0,
     rating_top: 0,
     ratings: [
@@ -725,7 +725,7 @@ export const upcomingGames = [
     ],
     released: '2024-07-11',
     tba: false,
-    background_image: null,
+    background_image: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co5ylv.jpg',
     rating: 3.71,
     rating_top: 4,
     ratings: [

@@ -15,3 +15,4 @@ export { default as ViewMoreHeader } from './ViewMoreHeader/ViewMoreHeader';
 export { default as GameOverviews } from './GameOverviews/GameOverviews';
 export { default as TopFreeGames } from './TopFreeGames/TopFreeGames';
 export { default as DataLoader } from './DataLoader/DataLoader';
+export { default as SideBar } from './SideBar/SideBar';

@@ -5,7 +5,8 @@ import {
   ViewMoreButton,
   ThingsOfTheMonth,
   GameOverviews,
-  TopFreeGames
+  TopFreeGames,
+  SideBar
 } from '../../components';
 
 import s from './HomePage.module.css';
@@ -13,6 +14,7 @@ import s from './HomePage.module.css';
 const HomePage = () => {
   return (
     <>
+      <SideBar />
       <section className={s.gamesScheduleSection}>
         <PageContainer className={s.gamesScheduleSectionContainer}>
           <h2 className={s.gamesScheduleSectionTitle}>Games schedule</h2>

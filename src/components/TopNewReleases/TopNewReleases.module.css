@@ -16,8 +16,38 @@
   border-radius: 10px;
   overflow: hidden;
 
-  & > img {
-    object-fit: cover;
+  & > a {
     border-radius: inherit;
+    overflow: hidden;
+  }
+
+  & > a > img {
+    object-fit: cover;
+  }
+
+  position: relative;
+}
+
+.gameName {
+  position: absolute;
+  bottom: 21px;
+  left: 12px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.21;
+}
+
+.dataPlaceHolder {
+  height: 309px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  color: lightskyblue;
+  &::before {
+    background-color: red;
   }
 }
