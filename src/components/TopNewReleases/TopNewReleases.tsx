@@ -7,16 +7,18 @@ interface TopNewReleasesProps {
 }
 
 const TopNewReleases = ({ className }: TopNewReleasesProps) => {
+  // const imagesUrl =
+  //   'https://fastly.picsum.photos/id/200/1920/1280.jpg?hmac=-eKjMC8-UrbLMpy1A4OWrK0feVPB3Ka5KNOGibQzpRU';
   const imagesUrl =
-    'https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4';
+    'https://fastly.picsum.photos/id/220/3872/2416.jpg?hmac=IpdtOEIfyokMoTZnxVYPTnmDjctAytLTcGi2-BPsv-M';
 
   return (
     <ul className={clsx(s.topNewReleasesList, className)}>
       <li className={s.topNewReleaseCard}>
-        <img src={imagesUrl} alt="" width={543} height={309} />
+        <img src={imagesUrl} alt="" width={'100%'} height={'100%'} />
       </li>
       <li className={s.topNewReleaseCard}>
-        <img src={imagesUrl} alt="" width={543} height={309} />
+        <img src={imagesUrl} alt="" width={'100%'} height={'100%'} />
       </li>
     </ul>
   );

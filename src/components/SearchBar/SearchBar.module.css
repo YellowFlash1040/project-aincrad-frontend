@@ -11,9 +11,9 @@
 }
 
 .queryField {
-  background-color: var(--second-color);
+  background-color: transparent;
 
-  border: none;
+  border: 1px solid var(--text-color);
   border-radius: 15px;
 
   padding: 13px 17px 13px 47px;
@@ -21,7 +21,7 @@
   width: 225px;
 
   &::placeholder {
-    color: var(--text-color);
+    color: var(--text-color-inactive);
     font-weight: 500;
   }
 }
@@ -32,4 +32,6 @@
   left: 17px;
 
   transform: translateY(-50%);
+
+  stroke: var(--text-color);
 }

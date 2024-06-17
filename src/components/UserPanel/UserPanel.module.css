@@ -4,11 +4,13 @@
   width: 34px;
   height: 34px;
 
-  background-color: var(--third-color);
+  background: linear-gradient(180deg, #27084e 0%, #9d0067 100%);
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  stroke: var(--text-color);
 }
 
 .languageButton {
@@ -18,4 +20,6 @@
 
   width: 28px;
   height: 28px;
+
+  stroke: var(--text-color);
 }

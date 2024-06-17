@@ -8,4 +8,64 @@
 
   border-radius: 10px;
   overflow: hidden;
+
+  & > img {
+    object-fit: cover;
+  }
+
+  box-shadow: 0px 4px 20px 1px #9d006766;
+
+  position: relative;
+}
+
+.releaseDate {
+  position: absolute;
+  left: 50%;
+  bottom: 11px;
+
+  transform: translateX(-50%);
+
+  display: flex;
+  column-gap: 8px;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.21;
+
+  /*Adding a black background to the date so that it will be more visible on a light surface*/
+  /* background-color: var(--main-color);
+  border-radius: 10px;
+  padding: 0 10px; */
+}
+
+.dayOfTheMonth {
+  position: relative;
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: -4px;
+
+    transform: translateY(-50%);
+
+    width: 1px;
+    height: 24px;
+
+    content: '';
+
+    background-color: var(--text-color);
+  }
+}
+
+.dataPlaceHolder {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  color: lightskyblue;
+  &::before {
+    background-color: red;
+  }
 }

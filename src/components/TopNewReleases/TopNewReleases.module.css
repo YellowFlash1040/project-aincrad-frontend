@@ -4,12 +4,20 @@
 }
 
 .topNewReleaseCard {
+  background: linear-gradient(180deg, red, orange, yellow);
+  background: linear-gradient(180deg, #510a39 0%, #27084e 100%);
+  width: 543px;
+  height: 309px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+
   border-radius: 10px;
   overflow: hidden;
 
-  background-color: var(--main-color);
-
   & > img {
     object-fit: cover;
+    border-radius: inherit;
   }
 }

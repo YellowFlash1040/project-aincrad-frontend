@@ -46,7 +46,8 @@ body {
 
   font-family: 'Inter', sans-serif;
 
-  background-color: #f5f6fb;
+  background-color: var(--main-color);
+  color: var(--text-color);
 }
 
 #root {
@@ -63,10 +64,17 @@ main {
 :root {
   --transition-options: 250ms ease-in-out;
 
-  --main-color: #d9d9d9;
+  --main-color: #0f031b;
   --second-color: #aaaaaa;
   --third-color: #939393;
-  --text-color: #3e3e3e;
+  --text-color: #e8e8e8;
+  --text-color-inactive: #969696;
+
+  /* --main-color: #d9d9d9;
+  --text-color: black;
+  --second-color: #aaaaaa;
+  --third-color: #939393;
+  --text-color: #e8e8e8; */
 }
 
 .visually-hidden {
